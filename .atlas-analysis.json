@@ -1,0 +1,215 @@
+{
+  "projectType": "framework",
+  "projectName": "WooCommerce",
+  "projectDescription": "A customizable, open-source ecommerce platform built on WordPress for building any commerce solution.",
+  "theme": "linden",
+  "primaryColor": "#7f54b3",
+  "lightColor": "#a97fcb",
+  "darkColor": "#5e3d85",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation",
+              "system-requirements"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "architecture/overview",
+              "architecture/monorepo-structure",
+              "architecture/modern-vs-legacy",
+              "architecture/dependency-injection",
+              "architecture/autoloading"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "core-concepts/products",
+              "core-concepts/orders",
+              "core-concepts/customers",
+              "core-concepts/payment-gateways",
+              "core-concepts/shipping-methods",
+              "core-concepts/taxes",
+              "core-concepts/coupons"
+            ]
+          },
+          {
+            "group": "Extension Development",
+            "pages": [
+              "extension-development/getting-started",
+              "extension-development/hooks-filters",
+              "extension-development/creating-extensions",
+              "extension-development/data-stores",
+              "extension-development/rest-api-extensions",
+              "extension-development/admin-ui-extensions",
+              "extension-development/payment-gateway-extensions",
+              "extension-development/shipping-method-extensions"
+            ]
+          },
+          {
+            "group": "Block Development",
+            "pages": [
+              "block-development/overview",
+              "block-development/cart-checkout-blocks",
+              "block-development/product-blocks",
+              "block-development/interactivity-api",
+              "block-development/block-templates"
+            ]
+          },
+          {
+            "group": "Theming",
+            "pages": [
+              "theming/overview",
+              "theming/template-structure",
+              "theming/hooks-reference",
+              "theming/customizing-product-pages",
+              "theming/customizing-cart-checkout",
+              "theming/styling-blocks"
+            ]
+          },
+          {
+            "group": "Testing",
+            "pages": [
+              "testing/overview",
+              "testing/php-unit-tests",
+              "testing/e2e-tests",
+              "testing/api-tests",
+              "testing/running-tests"
+            ]
+          },
+          {
+            "group": "Best Practices",
+            "pages": [
+              "best-practices/coding-standards",
+              "best-practices/security",
+              "best-practices/performance",
+              "best-practices/internationalization",
+              "best-practices/accessibility"
+            ]
+          },
+          {
+            "group": "Contributing",
+            "pages": [
+              "contributing/getting-started",
+              "contributing/development-workflow",
+              "contributing/pull-requests",
+              "contributing/changelog-entries",
+              "contributing/code-review"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "REST API",
+            "pages": [
+              "api/rest-api/overview",
+              "api/rest-api/authentication",
+              "api/rest-api/products",
+              "api/rest-api/orders",
+              "api/rest-api/customers",
+              "api/rest-api/coupons",
+              "api/rest-api/webhooks"
+            ]
+          },
+          {
+            "group": "Store API",
+            "pages": [
+              "api/store-api/overview",
+              "api/store-api/cart",
+              "api/store-api/checkout",
+              "api/store-api/extending",
+              "api/store-api/authentication"
+            ]
+          },
+          {
+            "group": "PHP Classes",
+            "pages": [
+              "api/php/overview",
+              "api/php/wc-product",
+              "api/php/wc-order",
+              "api/php/wc-customer",
+              "api/php/wc-payment-gateway",
+              "api/php/wc-shipping-method",
+              "api/php/container"
+            ]
+          },
+          {
+            "group": "JavaScript Packages",
+            "pages": [
+              "api/js/overview",
+              "api/js/components",
+              "api/js/data-stores",
+              "api/js/block-templates",
+              "api/js/navigation"
+            ]
+          },
+          {
+            "group": "CLI",
+            "pages": [
+              "api/cli/overview",
+              "api/cli/products",
+              "api/cli/orders",
+              "api/cli/customers",
+              "api/cli/tools"
+            ]
+          },
+          {
+            "group": "Hooks Reference",
+            "pages": [
+              "api/hooks/overview",
+              "api/hooks/actions",
+              "api/hooks/filters"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Flexible product management",
+    "Multiple payment gateways",
+    "Shipping methods and zones",
+    "Tax calculation and reporting",
+    "Order management system",
+    "Customer accounts and profiles",
+    "Coupon and discount system",
+    "Extensive REST and Store APIs",
+    "Block-based cart and checkout",
+    "Admin dashboard and analytics",
+    "Extension and plugin system",
+    "Multi-language and multi-currency support"
+  ],
+  "publicApiSurface": [
+    "WC_Product",
+    "WC_Order",
+    "WC_Customer",
+    "WC_Payment_Gateway",
+    "WC_Shipping_Method",
+    "WC_REST_Products_Controller",
+    "WC_REST_Orders_Controller",
+    "WC_REST_Customers_Controller",
+    "StoreApi\\Schemas",
+    "StoreApi\\Routes",
+    "wc_get_product()",
+    "wc_get_order()",
+    "wc_get_customer()",
+    "woocommerce_before_checkout_form",
+    "woocommerce_after_cart",
+    "woocommerce_add_to_cart",
+    "@woocommerce/components",
+    "@woocommerce/data",
+    "@woocommerce/blocks"
+  ]
+}
